@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.Login">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/falcontech.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="357.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="54.0" fitWidth="51.0" layoutX="141.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/lock.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="13.0" layoutY="165.0" text="Username" textFill="#dde406">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="214.0" text="Password" textFill="#dde406">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="119.0" layoutY="165.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="118.0" layoutY="214.0" promptText="Password" />
+            <Button fx:id="button" layoutX="136.0" layoutY="297.0" mnemonicParsing="false" onAction="#userLogin" prefHeight="37.0" prefWidth="75.0" style="-fx-background-color: #ffc900;" text="Log In" />
+            <Label fx:id="wrongLogin" layoutX="118.0" layoutY="131.0" textFill="#d33939" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
