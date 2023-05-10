@@ -6,7 +6,7 @@ Simple Quiz tech created by JavaFx!
 
 How to use this repository?
 
-1.Clone the repository
+1.Clone the repository (. https://github.com/Ramzi-444/QuizApp.git )
 
 2.Open the project in your IDE (preferably IntelliJ IDEA)
 
