@@ -1,6 +1,17 @@
 
 # QuizApp
-Simple Quiz tech created by JavaFx!
+Quiz tech created by JavaFx that can allow every students to test their basic knowledge taking this quiz. Each students have their own credentials for entering the quiz!
+
+
+⚒️ Technologies Used
+
+-Java
+-JavaFX
+💉 Requirements
+
+-Java Development Kit (JDK) 8 or above
+-JavaFX SDK (included with JavaFX distributions starting from JDK 11)
+-Any IDE that supports Java and JavaFX (e.g., IntelliJ IDEA, Eclipse)
 
 You can run the project and test your general knowledge! The Quiz contains only 10 questions. GOOD LUCK
 
