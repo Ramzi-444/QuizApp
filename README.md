@@ -4,14 +4,13 @@ Quiz tech created by JavaFx that can allow every students to test their basic kn
 
 
 ⚒️ Technologies Used
+- Java
+- JavaFX
 
--Java
--JavaFX
 💉 Requirements
-
--Java Development Kit (JDK) 8 or above
--JavaFX SDK (included with JavaFX distributions starting from JDK 11)
--Any IDE that supports Java and JavaFX (e.g., IntelliJ IDEA, Eclipse)
+- Java Development Kit (JDK) 8 or above
+- JavaFX SDK (included with JavaFX distributions starting from JDK 11)
+- Any IDE that supports Java and JavaFX (e.g., IntelliJ IDEA, Eclipse)
 
 You can run the project and test your general knowledge! The Quiz contains only 10 questions. GOOD LUCK
 
@@ -21,15 +20,11 @@ You can run the project and test your general knowledge! The Quiz contains only 
 
 How to use this repository?
 
-1.Clone the repository (. https://github.com/Ramzi-444/QuizApp.git )
+- Clone the repository (. https://github.com/Ramzi-444/QuizApp.git )
 
-2.Open the project in your IDE (preferably IntelliJ IDEA)
+- Open the project in your IDE (preferably IntelliJ IDEA)
 
-3.Run the Main java class.
-
-
-
-Username: prepFinal
-
-Password: 123
+- Run the Main java class.
+- Username: prepFinal
+- Password: 123
 
